@@ -7,7 +7,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from gtts import gTTS
 from openai import OpenAI
 
-app = FastAPI(title="My Friend Bot")
+app = FastAPI(title="서연 프렌드 봇")
 
 app.add_middleware(
     CORSMiddleware,
